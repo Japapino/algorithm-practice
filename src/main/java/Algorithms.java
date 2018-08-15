@@ -25,4 +25,13 @@ public class Algorithms {
         return Math.abs(diagDiff);
 
     }
+
+    public int magicSquare(int[][] s){
+
+
+        
+        return 0;
+    }
+
+
 }
