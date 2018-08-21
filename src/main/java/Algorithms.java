@@ -28,7 +28,7 @@ public class Algorithms {
 
     public int magicSquare(int[][] s){
 
-        //check if matrix is a magic square where the sume of any
+        //check if matrix is a magic square where the sum of any
         //row, column, or diagonal are all equal.
 
         //values in the square are between 1 and 9
@@ -37,7 +37,6 @@ public class Algorithms {
 
         //A value of the in the matrix (x) can be changed to another value (y)
         //at the cost of the difference between the two: abs(x-y);
-
 
 
 
