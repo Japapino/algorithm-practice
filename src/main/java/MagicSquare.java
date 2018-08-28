@@ -29,7 +29,7 @@ public class MagicSquare {
 
         int check = sums.get(0);
 
-        for (int z = 0 ; z < sums.size(); z++){
+        for (int z : sums){
             if (sums.get(z) != check){
                 return false;
             }
@@ -52,7 +52,39 @@ public class MagicSquare {
 
         int check = sums.get(0);
 
-        for (int z = 0 ; z < sums.size(); z++){
+        for (int z : sums){
+            if (sums.get(z) != check){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public boolean checkDiagonal(){
+        int sum;
+        ArrayList<Integer> sums = new ArrayList<>();
+
+        //first diagonal
+        sum = 0;
+        for (int i = 0; i < array.length; i++){
+            sum += array[i][i];
+            sums.add(sum);
+        }
+
+        //second diagonal
+        int j = array.length-1;
+        sum = 0;
+        for (int i = 0; i < array.length; i++){
+            sum =+ array[i][j];
+
+            if (j!= 0) {
+                j--;
+            }
+        }
+
+        int check = sums.get(0);
+
+        for (int z : sums){
             if (sums.get(z) != check){
                 return false;
             }

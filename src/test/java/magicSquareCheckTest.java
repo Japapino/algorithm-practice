@@ -28,5 +28,15 @@ public class magicSquareCheckTest {
         assertTrue(check);
     }
 
+    @Test
+    public void checkIfSumOfDiagonalsAreEqual(){
+        int[][] array = new int[][]{
+                {-1,1,-1},
+                {1,1,1},
+                {-1,1,-1}};
+        MagicSquare test = new MagicSquare(array);
+        boolean check = test.checkDiagonal();
+        assertTrue(check);
+    }
 
 }
