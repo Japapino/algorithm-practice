@@ -17,5 +17,16 @@ public class magicSquareCheckTest {
         assertTrue(check);
     }
 
+    @Test
+    public void checkIfSumOfAllColumnsAreEqual(){
+        int[][] array = new int[][]{
+                {-1,-1,-1},
+                {1,1,1},
+                {1,1,1}};
+        MagicSquare test = new MagicSquare(array);
+        boolean check = test.checkColumns();
+        assertTrue(check);
+    }
+
 
 }

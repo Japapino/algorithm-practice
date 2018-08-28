@@ -14,8 +14,7 @@ public class MagicSquare {
     }
 
     public boolean checkRows(){
-
-        int sum = 0;
+        int sum;
         ArrayList<Integer> sums = new ArrayList<>();
 
         for (int i = 0; i < array.length; i++){
@@ -27,6 +26,7 @@ public class MagicSquare {
             sums.add(sum);
         }
 
+
         int check = sums.get(0);
 
         for (int z = 0 ; z < sums.size(); z++){
@@ -35,6 +35,28 @@ public class MagicSquare {
             }
         }
 
+        return true;
+    }
+
+    public boolean checkColumns(){
+        int sum;
+        ArrayList<Integer> sums = new ArrayList<>();
+
+        for (int j = 0; j < array.length; j++){
+            sum = 0;
+            for (int i = 0; i < array.length; i++){
+                sum += array[i][j];
+            }
+            sums.add(sum);
+        }
+
+        int check = sums.get(0);
+
+        for (int z = 0 ; z < sums.size(); z++){
+            if (sums.get(z) != check){
+                return false;
+            }
+        }
         return true;
     }
 

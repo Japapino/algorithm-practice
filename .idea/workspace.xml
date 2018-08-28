@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="974b419c-b9b0-4624-b7cd-2179eeaf23a9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Algorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Algorithms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algorithmRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/algorithmRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/magicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MagicSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/magicSquareTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MagicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MagicSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,8 +46,8 @@
           <file leaf-file-name="MagicSquare.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+                <state relative-caret-position="122">
+                  <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
                 </state>
               </provider>
             </entry>
@@ -62,8 +59,8 @@
           <file leaf-file-name="magicSquareCheckTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="173">
+                  <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -488,10 +485,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Algorithms.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MagicSquare.java" />
         <option value="$PROJECT_DIR$/src/main/java/magicSquareTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/magicSquareCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/magicSquare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MagicSquare.java" />
         <option value="$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java" />
       </list>
     </option>
@@ -569,7 +566,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -583,6 +580,23 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="magicSquareCheckTest" />
+      <option name="METHOD_NAME" value="checkIfSumOfAllColumnsAreEqual" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -644,8 +658,13 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllRowsAreEqual" />
+      <item itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" />
         <item itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllRowsAreEqual" />
       </list>
     </recent_temporary>
@@ -672,6 +691,21 @@
     </history-entry>
     <history-entry file="magicSquareCheckTest_checkIfSumOfAllRowsAreEqual - 2018.08.28 at 12h 26m 29s.xml">
       <configuration name="magicSquareCheckTest.checkIfSumOfAllRowsAreEqual" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_checkIfSumOfAllRowsAreEqual - 2018.08.28 at 12h 26m 55s.xml">
+      <configuration name="magicSquareCheckTest.checkIfSumOfAllRowsAreEqual" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_checkIfSumOfAllRowsAreEqual - 2018.08.28 at 12h 42m 41s.xml">
+      <configuration name="magicSquareCheckTest.checkIfSumOfAllRowsAreEqual" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_checkIfSumOfAllColumnsAreEqual - 2018.08.28 at 12h 42m 58s.xml">
+      <configuration name="magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_checkIfSumOfAllColumnsAreEqual - 2018.08.28 at 12h 43m 08s.xml">
+      <configuration name="magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_checkIfSumOfAllColumnsAreEqual - 2018.08.28 at 12h 43m 20s.xml">
+      <configuration name="magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -725,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithmRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/magicSquareCheck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -746,20 +773,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithmRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="173">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
         </state>
       </provider>
     </entry>
