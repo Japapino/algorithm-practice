@@ -84,7 +84,7 @@ public class MagicSquare {
 
         int check = sums.get(0);
 
-        for (int z : sums){
+        for (int z = 0; z < sums.size(); z++){
             if (sums.get(z) != check){
                 return false;
             }
