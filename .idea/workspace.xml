@@ -44,9 +44,12 @@
           <file leaf-file-name="MagicSquare.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="194">
-                  <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
-                  <folding />
+                <state relative-caret-position="359">
+                  <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#158#159#0" expanded="true" />
+                    <element signature="e#192#193#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -58,8 +61,8 @@
           <file leaf-file-name="magicSquareCheckTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="158">
-                  <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+                <state relative-caret-position="663">
+                  <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -697,8 +700,8 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllRowsAreEqual" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllRowsAreEqual" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest" />
       </list>
     </recent_temporary>
@@ -720,20 +723,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="magicSquareCheckTest_checkIfSumOfAllRowsAreEqual - 2018.08.28 at 14h 03m 57s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfAllRowsAreEqual" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_checkIfSumOfAllRowsAreEqual - 2018.08.28 at 14h 06m 19s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfAllRowsAreEqual" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.28 at 14h 00m 36s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.28 at 14h 16m 11s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.28 at 14h 16m 31s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
+    <history-entry file="magicSquareCheckTest_checkIfSumOfAllColumnsAreEqual - 2018.08.29 at 15h 03m 15s.xml">
+      <configuration name="magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" configurationId="JUnit" />
     </history-entry>
     <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.28 at 14h 17m 37s.xml">
       <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
@@ -750,6 +741,18 @@
     <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.29 at 14h 55m 58s.xml">
       <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.29 at 14h 58m 51s.xml">
+      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.29 at 15h 01m 13s.xml">
+      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.29 at 15h 05m 09s.xml">
+      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.29 at 15h 05m 55s.xml">
+      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -763,7 +766,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19347826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19347826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -788,7 +791,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -812,7 +817,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1501">
           <caret line="79" column="24" lean-forward="true" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -852,7 +860,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -887,18 +898,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="359">
+          <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+        <state relative-caret-position="663">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>

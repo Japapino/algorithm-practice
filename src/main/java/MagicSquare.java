@@ -68,19 +68,19 @@ public class MagicSquare {
         sum = 0;
         for (int i = 0; i < array.length; i++){
             sum += array[i][i];
-            sums.add(sum);
         }
+        sums.add(sum);
 
         //second diagonal
         int j = array.length-1;
         sum = 0;
         for (int i = 0; i < array.length; i++){
             sum =+ array[i][j];
-
             if (j!= 0) {
                 j--;
             }
         }
+        sums.add(sum);
 
         int check = sums.get(0);
 
