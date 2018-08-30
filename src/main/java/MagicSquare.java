@@ -75,7 +75,7 @@ public class MagicSquare {
         int j = array.length-1;
         sum = 0;
         for (int i = 0; i < array.length; i++){
-            sum =+ array[i][j];
+            sum += array[i][j];
             if (j!= 0) {
                 j--;
             }
@@ -94,11 +94,14 @@ public class MagicSquare {
 
     public boolean check(){
 
-        if (this.checkRows()  || this.checkColumns() || this.checkDiagonal() ) {
-            return false;
+        if (this.checkRows()  && this.checkColumns() && this.checkDiagonal() ) {
+            System.out.println(this.checkRows());
+            System.out.println(this.checkColumns());
+            System.out.println(this.checkDiagonal());
+            return true;
         }
 
-        return true;
+        return false;
     }
 
 }
