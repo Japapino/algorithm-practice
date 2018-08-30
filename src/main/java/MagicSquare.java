@@ -95,13 +95,13 @@ public class MagicSquare {
     public boolean check(){
 
         if (this.checkRows()  && this.checkColumns() && this.checkDiagonal() ) {
-            System.out.println(this.checkRows());
-            System.out.println(this.checkColumns());
-            System.out.println(this.checkDiagonal());
+
             return true;
         }
 
         return false;
     }
+
+
 
 }
