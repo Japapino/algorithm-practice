@@ -29,7 +29,7 @@ public class MagicSquare {
 
         int check = sums.get(0);
 
-        for (int z : sums){
+        for (int z = 0; z < sums.size(); z++){
             if (sums.get(z) != check){
                 return false;
             }
@@ -52,7 +52,7 @@ public class MagicSquare {
 
         int check = sums.get(0);
 
-        for (int z : sums){
+        for (int z = 0; z < sums.size(); z++){
             if (sums.get(z) != check){
                 return false;
             }
@@ -89,6 +89,15 @@ public class MagicSquare {
                 return false;
             }
         }
+        return true;
+    }
+
+    public boolean check(){
+
+        if (this.checkRows()  || this.checkColumns() || this.checkDiagonal() ) {
+            return false;
+        }
+
         return true;
     }
 

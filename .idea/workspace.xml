@@ -31,25 +31,22 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Algorithms.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Algorithms.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <state relative-caret-position="231">
+                  <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MagicSquare.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="MagicSquare.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="359">
-                  <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-                  <folding>
-                    <element signature="e#158#159#0" expanded="true" />
-                    <element signature="e#192#193#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="546">
+                  <caret line="46" column="51" lean-forward="true" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -61,8 +58,8 @@
           <file leaf-file-name="magicSquareCheckTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="663">
-                  <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+                <state relative-caret-position="491">
+                  <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -484,12 +481,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Algorithms.java" />
         <option value="$PROJECT_DIR$/src/main/java/magicSquareTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/magicSquareCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/magicSquare.java" />
-        <option value="$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithms.java" />
         <option value="$PROJECT_DIR$/src/main/java/MagicSquare.java" />
+        <option value="$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java" />
       </list>
     </option>
   </component>
@@ -530,7 +527,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual">
+  <component name="RunManager" selected="JUnit.magicSquareCheckTest.runAllMagicSquareChecksShouldBeTrue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
@@ -651,26 +648,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="magicSquareCheckTest.checkIfSumOfAllRowsAreEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="algorithms_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="magicSquareCheckTest" />
-      <option name="METHOD_NAME" value="checkIfSumOfAllRowsAreEqual" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="algorithms_test" />
@@ -691,18 +668,60 @@
       <envs />
       <patterns />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllRowsAreEqual" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" />
+    <configuration name="magicSquareCheckTest.runAllMagicSquareChecksShouldBeFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="algorithms_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="magicSquareCheckTest" />
+      <option name="METHOD_NAME" value="runAllMagicSquareChecksShouldBeFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="magicSquareCheckTest.runAllMagicSquareChecksShouldBeTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="algorithms_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="magicSquareCheckTest" />
+      <option name="METHOD_NAME" value="runAllMagicSquareChecksShouldBeTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.runAllMagicSquareChecksShouldBeFalse" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.runAllMagicSquareChecksShouldBeTrue" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllRowsAreEqual" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.runAllMagicSquareChecksShouldBeTrue" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.runAllMagicSquareChecksShouldBeFalse" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -723,35 +742,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="magicSquareCheckTest_checkIfSumOfAllColumnsAreEqual - 2018.08.29 at 15h 03m 15s.xml">
+    <history-entry file="magicSquareCheckTest - 2018.08.30 at 10h 55m 15s.xml">
+      <configuration name="magicSquareCheckTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest - 2018.08.30 at 11h 18m 13s.xml">
+      <configuration name="magicSquareCheckTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_checkIfSumOfAllColumnsAreEqual - 2018.08.30 at 11h 13m 43s.xml">
       <configuration name="magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.28 at 14h 17m 37s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.28 at 15h 27m 30s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.29 at 14h 40m 44s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.29 at 14h 50m 47s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.29 at 14h 55m 58s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.29 at 14h 58m 51s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.29 at 15h 01m 13s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.29 at 15h 05m 09s.xml">
-      <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
+    <history-entry file="magicSquareCheckTest_checkIfSumOfAllColumnsAreEqual - 2018.08.30 at 11h 17m 57s.xml">
+      <configuration name="magicSquareCheckTest.checkIfSumOfAllColumnsAreEqual" configurationId="JUnit" />
     </history-entry>
     <history-entry file="magicSquareCheckTest_checkIfSumOfDiagonalsAreEqual - 2018.08.29 at 15h 05m 55s.xml">
       <configuration name="magicSquareCheckTest.checkIfSumOfDiagonalsAreEqual" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_runAllMagicSquareChecksShouldBeFalse - 2018.08.30 at 11h 13m 16s.xml">
+      <configuration name="magicSquareCheckTest.runAllMagicSquareChecksShouldBeFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_runAllMagicSquareChecksShouldBeFalse - 2018.08.30 at 11h 14m 10s.xml">
+      <configuration name="magicSquareCheckTest.runAllMagicSquareChecksShouldBeFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_runAllMagicSquareChecksShouldBeFalse - 2018.08.30 at 11h 15m 04s.xml">
+      <configuration name="magicSquareCheckTest.runAllMagicSquareChecksShouldBeFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_runAllMagicSquareChecksShouldBeFalse - 2018.08.30 at 11h 17m 53s.xml">
+      <configuration name="magicSquareCheckTest.runAllMagicSquareChecksShouldBeFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_runAllMagicSquareChecksShouldBeTrue - 2018.08.30 at 11h 20m 06s.xml">
+      <configuration name="magicSquareCheckTest.runAllMagicSquareChecksShouldBeTrue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -766,7 +785,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19347826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19347826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -792,11 +811,43 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithmRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithmRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -817,10 +868,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1501">
           <caret line="79" column="24" lean-forward="true" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -860,10 +908,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -890,29 +935,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="546">
+          <caret line="46" column="51" lean-forward="true" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="491">
+          <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
           <folding />
         </state>
       </provider>
