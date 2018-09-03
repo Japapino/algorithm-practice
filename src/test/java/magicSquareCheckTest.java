@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 public class magicSquareCheckTest {
@@ -10,7 +11,7 @@ public class magicSquareCheckTest {
 
     @Before
     public void setup() {
-        int[][] msTest = new int[][]{
+        msTest = new int[][]{
                 {8, 1, 6},
                 {3, 5, 7},
                 {4, 9, 2}
@@ -64,11 +65,6 @@ public class magicSquareCheckTest {
 
     @Test
     public void runAllMagicSquareChecksShouldBeTrue(){
-//        int[][] array = new int[][]{
-//                {8,1,6},
-//                {3,5,7},
-//                {4,9,2}
-//        };
         MagicSquare test = new MagicSquare(msTest);
         boolean check = test.check();
         assertTrue(check);
@@ -81,6 +77,8 @@ public class magicSquareCheckTest {
                 {1,1,1},
                 {-1,1,-1}};
         MagicSquare test = new MagicSquare(array);
+        int diff = test.check(msTest);
+        assertNotNull(diff);
 
     }
 
