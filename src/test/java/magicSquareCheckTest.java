@@ -77,9 +77,8 @@ public class magicSquareCheckTest {
                 {1,1,1},
                 {-1,1,-1}};
         MagicSquare test = new MagicSquare(array);
-        int diff = test.check(msTest);
+        int diff = test.checkDiff(msTest);
         assertNotNull(diff);
-
     }
 
 }

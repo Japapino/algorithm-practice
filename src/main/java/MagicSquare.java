@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class MagicSquare {
 
@@ -95,11 +96,30 @@ public class MagicSquare {
     public boolean check(){
 
         if (this.checkRows()  && this.checkColumns() && this.checkDiagonal() ) {
-
             return true;
         }
-
         return false;
+    }
+
+    public int checkDiff(int[][] testArray){
+        int size = testArray.length;
+        int[][] test = this.array;
+        int[][] result = new int[size][size];
+        int sumDiff = 0;
+
+        for (int i = 0 ; i < size ; i++){
+            for (int j = 0 ; j < size ; j++){
+                result[i][j] = testArray[i][j] - test[i][j];
+            }
+        }
+
+        for (int[] row : result){
+            for (int x : row){
+                sumDiff += x;
+            }
+        }
+
+        return sumDiff;
     }
 
 
