@@ -6,13 +6,13 @@ public class IntStack {
     //methods: push, pop
 
     private int [] stack;
-    private int top;
     private int size;
+    private int top;
 
     public IntStack(){
         top = -1;
-        size = 50;
-        stack = new int [50];
+        size = 10;
+        stack = new int [10];
     }
 
     public IntStack(int size){
@@ -20,6 +20,22 @@ public class IntStack {
         this.size = size;
         stack = new int [this.size];
     }
+
+    public int size(){
+        return this.size;
+    }
+
+    public void push(int value){
+        top++;
+        stack[top] = value;
+    }
+
+    public int pop(){
+        int value = stack[top];
+        top--;
+        return value;
+    }
+
 
 
 }
