@@ -14,6 +14,8 @@ public class MagicSquare {
         return array;
     }
 
+    
+
     public boolean checkRows(){
         int sum;
         ArrayList<Integer> sums = new ArrayList<>();
@@ -121,7 +123,6 @@ public class MagicSquare {
 
         return sumDiff;
     }
-
 
 
 }

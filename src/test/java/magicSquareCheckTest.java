@@ -1,9 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class magicSquareCheckTest {
 
@@ -17,7 +15,6 @@ public class magicSquareCheckTest {
                 {4, 9, 2}
         };
     }
-
 
     @Test
     public void checkIfSumOfAllRowsAreEqual(){
@@ -73,12 +70,23 @@ public class magicSquareCheckTest {
     @Test
     public void checkDifferencesBetweenGivenSquareAndMagicSquare(){
         int[][] array = new int[][]{
-                {-1,1,-1},
                 {1,1,1},
-                {-1,1,-1}};
+                {1,1,1},
+                {1,1,1}};
         MagicSquare test = new MagicSquare(array);
         int diff = test.checkDiff(msTest);
-        assertNotNull(diff);
+        assertThat(diff, is(36));
+    }
+
+    @Test
+    public void shouldFindMagicSquareWithLowestDifference(){
+        int[][] array = new int[][]{
+                {8, 1, 6},
+                {3, 5, 7},
+                {4, 9, 1}};
+        MagicSquare test = new MagicSquare(array);
+        int result = test.findClosest(msTest);
+        assertThat(result, is(0));
     }
 
 }
