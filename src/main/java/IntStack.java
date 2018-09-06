@@ -25,9 +25,18 @@ public class IntStack {
         return this.size;
     }
 
-    public void push(int value){
-        top++;
-        stack[top] = value;
+    public boolean push(int value){
+        if(!isFull()) {
+            top++;
+            stack[top] = value;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public boolean isFull(){
+        return (top == stack.length -1);
     }
 
     public int pop(){

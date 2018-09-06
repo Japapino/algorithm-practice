@@ -22,11 +22,10 @@ public class stackTest {
 
     @Test
     public void shouldReturnFalseIfStackFull(){
-        intStacktestStack = new IntStack(2);
+        IntStack testStack = new IntStack(2);
         testStack.push(1);
         testStack.push(2);
         boolean result = testStack.push(3);
         assertFalse(result);
-
     }
 }
