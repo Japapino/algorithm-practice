@@ -2,7 +2,7 @@ public class IntStack {
 
     //stack
     //ordered list with special properties
-    //first in first one
+    //first in first out
     //methods: push, pop
 
     private int [] stack;

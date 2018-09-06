@@ -19,4 +19,14 @@ public class stackTest {
         testStack.push(3);
         assertThat(testStack.pop(), is(3));
     }
+
+    @Test
+    public void shouldReturnFalseIfStackFull(){
+        intStacktestStack = new IntStack(2);
+        testStack.push(1);
+        testStack.push(2);
+        boolean result = testStack.push(3);
+        assertFalse(result);
+
+    }
 }
