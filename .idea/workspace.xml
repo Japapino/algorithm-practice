@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="974b419c-b9b0-4624-b7cd-2179eeaf23a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/MagicSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/MagicSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/stackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/stackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MagicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MagicSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithmRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithmRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -40,8 +36,8 @@
           <file leaf-file-name="Algorithms.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+                <state relative-caret-position="135">
+                  <caret line="30" selection-start-line="30" selection-end-line="30" />
                 </state>
               </provider>
             </entry>
@@ -49,10 +45,15 @@
           <file leaf-file-name="MagicSquare.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="271">
-                  <caret line="121" column="9" lean-forward="true" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+                <state relative-caret-position="289">
+                  <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="method#checkRows#0;class#MagicSquare#0" />
+                    <element signature="method#checkColumns#0;class#MagicSquare#0" />
+                    <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
+                    <element signature="method#check#0;class#MagicSquare#0" />
+                    <element signature="method#magicSquares#0;class#MagicSquare#0" />
                   </folding>
                 </state>
               </provider>
@@ -65,8 +66,8 @@
           <file leaf-file-name="magicSquareCheckTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+                <state relative-caret-position="183">
+                  <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -493,12 +494,12 @@
         <option value="$PROJECT_DIR$/src/main/java/magicSquareTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/magicSquareCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/magicSquare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Algorithms.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataStructures.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stack.java" />
         <option value="$PROJECT_DIR$/src/main/java/IntStack.java" />
         <option value="$PROJECT_DIR$/src/test/java/stackTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithms.java" />
         <option value="$PROJECT_DIR$/src/main/java/MagicSquare.java" />
       </list>
     </option>
@@ -846,6 +847,11 @@
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkRows#0;class#MagicSquare#0" />
+            <element signature="method#checkColumns#0;class#MagicSquare#0" />
+            <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
+            <element signature="method#check#0;class#MagicSquare#0" />
+            <element signature="method#magicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -880,6 +886,11 @@
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkRows#0;class#MagicSquare#0" />
+            <element signature="method#checkColumns#0;class#MagicSquare#0" />
+            <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
+            <element signature="method#check#0;class#MagicSquare#0" />
+            <element signature="method#magicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -935,6 +946,11 @@
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkRows#0;class#MagicSquare#0" />
+            <element signature="method#checkColumns#0;class#MagicSquare#0" />
+            <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
+            <element signature="method#check#0;class#MagicSquare#0" />
+            <element signature="method#magicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -989,6 +1005,11 @@
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkRows#0;class#MagicSquare#0" />
+            <element signature="method#checkColumns#0;class#MagicSquare#0" />
+            <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
+            <element signature="method#check#0;class#MagicSquare#0" />
+            <element signature="method#magicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -1052,6 +1073,11 @@
         <state>
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkRows#0;class#MagicSquare#0" />
+            <element signature="method#checkColumns#0;class#MagicSquare#0" />
+            <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
+            <element signature="method#check#0;class#MagicSquare#0" />
+            <element signature="method#magicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -1085,6 +1111,11 @@
           <caret line="104" selection-start-line="104" selection-end-line="104" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkRows#0;class#MagicSquare#0" />
+            <element signature="method#checkColumns#0;class#MagicSquare#0" />
+            <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
+            <element signature="method#check#0;class#MagicSquare#0" />
+            <element signature="method#magicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -1102,6 +1133,11 @@
           <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkRows#0;class#MagicSquare#0" />
+            <element signature="method#checkColumns#0;class#MagicSquare#0" />
+            <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
+            <element signature="method#check#0;class#MagicSquare#0" />
+            <element signature="method#magicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -1142,6 +1178,11 @@
           <caret line="79" column="24" lean-forward="true" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkRows#0;class#MagicSquare#0" />
+            <element signature="method#checkColumns#0;class#MagicSquare#0" />
+            <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
+            <element signature="method#check#0;class#MagicSquare#0" />
+            <element signature="method#magicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -1184,6 +1225,11 @@
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkRows#0;class#MagicSquare#0" />
+            <element signature="method#checkColumns#0;class#MagicSquare#0" />
+            <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
+            <element signature="method#check#0;class#MagicSquare#0" />
+            <element signature="method#magicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -1220,13 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IntStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1238,20 +1277,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="121" column="9" lean-forward="true" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+        <state relative-caret-position="289">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkRows#0;class#MagicSquare#0" />
+            <element signature="method#checkColumns#0;class#MagicSquare#0" />
+            <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
+            <element signature="method#check#0;class#MagicSquare#0" />
+            <element signature="method#magicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        <state relative-caret-position="183">
+          <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
