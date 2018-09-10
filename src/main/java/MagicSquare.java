@@ -15,7 +15,6 @@ public class MagicSquare {
         return array;
     }
 
-
     public boolean checkRows(){
         int sum;
         ArrayList<Integer> sums = new ArrayList<>();
@@ -124,25 +123,25 @@ public class MagicSquare {
         return sumDiff;
     }
 
-    public int[][] findClosest(int[][] arrayToCheck){
-        int[][] array;
+    public int findClosest(int[][] arrayToCheck){
+        //return index of MS closest to given array
         int difference;
         int leastDifference = Integer.MAX_VALUE;
-        int[][] closestArray = new int[][]{{0,0,0},{0,0,0},{0,0,0}};
+//        int[][] closestArray = new int[][]{{0,0,0},{0,0,0},{0,0,0}};
+        int closestArray = -1;
+
         for(MagicSquare ms : squareList) {
-//            array = ms.getSquare();
 
             difference = ms.checkDiff(arrayToCheck);
             if (difference < leastDifference){
                 leastDifference = difference;
-                closestArray = ms.getSquare();
+                closestArray = squareList.indexOf(ms);
             }
         }
-
         return closestArray;
     }
 
-    public void magicSquares(){
+    public void allMagicSquares(){
         //all possible 3x3 magic squares
         int[][] ms1 = new int[][]{
                 {8,1,6},
