@@ -78,15 +78,14 @@ public class magicSquareCheckTest {
         assertThat(diff, is(36));
     }
 
-//    @Test
-//    public void shouldFindMagicSquareWithLowestDifference(){
-//        int[][] array = new int[][]{
-//                {8, 1, 6},
-//                {3, 5, 7},
-//                {4, 9, 1}};
-//        MagicSquare test = new MagicSquare(array);
-//        int result = test.findClosest(msTest);
-//        assertThat(result, is(0));
-//    }
-
+    @Test
+    public void shouldFindMagicSquareWithLowestDifference(){
+        int[][] array = new int[][]{
+                {8, 1, 6},
+                {3, 5, 7},
+                {4, 9, 1}};
+        MagicSquare test = new MagicSquare(array);
+        int result = test.findClosest(msTest);
+        assertThat(result, is(0));
+    }
 }

@@ -103,15 +103,15 @@ public class MagicSquare {
         return false;
     }
 
-    public int checkDiff(int[][] testArray){
-        int size = testArray.length;
+    public int checkDiff(int[][] checkArray){
+        int size = checkArray.length;
         int[][] test = this.array;
         int[][] result = new int[size][size];
         int sumDiff = 0;
 
         for (int i = 0 ; i < size ; i++){
             for (int j = 0 ; j < size ; j++){
-                result[i][j] = testArray[i][j] - test[i][j];
+                result[i][j] = checkArray[i][j] - test[i][j];
             }
         }
 
@@ -122,6 +122,11 @@ public class MagicSquare {
         }
 
         return sumDiff;
+    }
+
+    public int findClosest(int[][] array){
+
+        return 1;
     }
 
 

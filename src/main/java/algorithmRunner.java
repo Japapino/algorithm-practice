@@ -19,7 +19,6 @@ public class algorithmRunner {
         };
 
 
-
         int result = test.diagonalDiff(array);
 
         System.out.println(result);
