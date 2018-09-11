@@ -5,10 +5,11 @@ public class MagicSquare {
 
     //stores all possible 3x3 magic squares
     int[][] array;
-    ArrayList<MagicSquare> squareList = new ArrayList<>();
+    ArrayList<int[][]> squareList = new ArrayList<>();
 
     public MagicSquare(int[][] array){
         this.array = array;
+        this.allMagicSquares();
     }
 
     public int[][] getSquare(){
@@ -104,13 +105,12 @@ public class MagicSquare {
 
     public int checkDiff(int[][] checkArray){
         int size = checkArray.length;
-        int[][] test = this.array;
         int[][] result = new int[size][size];
         int sumDiff = 0;
 
         for (int i = 0 ; i < size ; i++){
             for (int j = 0 ; j < size ; j++){
-                result[i][j] = checkArray[i][j] - test[i][j];
+                result[i][j] = checkArray[i][j] - this.array[i][j];
             }
         }
 
@@ -127,12 +127,11 @@ public class MagicSquare {
         //return index of MS closest to given array
         int difference;
         int leastDifference = Integer.MAX_VALUE;
-//        int[][] closestArray = new int[][]{{0,0,0},{0,0,0},{0,0,0}};
         int closestArray = -1;
 
-        for(MagicSquare ms : squareList) {
-
+        for(int[][] ms : squareList) {
             difference = ms.checkDiff(arrayToCheck);
+            System.out.println(difference);
             if (difference < leastDifference){
                 leastDifference = difference;
                 closestArray = squareList.indexOf(ms);
@@ -185,24 +184,18 @@ public class MagicSquare {
                 {4,3,8}
         };
 
-        MagicSquare magic1 = new MagicSquare(ms1);
-        MagicSquare magic2 = new MagicSquare(ms2);
-        MagicSquare magic3 = new MagicSquare(ms3);
-        MagicSquare magic4 = new MagicSquare(ms4);
-        MagicSquare magic5 = new MagicSquare(ms5);
-        MagicSquare magic6 = new MagicSquare(ms6);
-        MagicSquare magic7 = new MagicSquare(ms7);
-        MagicSquare magic8 = new MagicSquare(ms8);
 
-
-        squareList.add(magic1);
-        squareList.add(magic2);
-        squareList.add(magic3);
-        squareList.add(magic4);
-        squareList.add(magic5);
-        squareList.add(magic6);
-        squareList.add(magic7);
-        squareList.add(magic8);
+        squareList.add(ms1);
+        squareList.add(ms2);
+        squareList.add(ms3);
+        squareList.add(ms4);
+        squareList.add(ms5);
+        squareList.add(ms6);
+        squareList.add(ms7);
+        squareList.add(ms8);
+    }
+    public ArrayList<int[][]> getMSList(){
+        return this.squareList;
     }
 
 
