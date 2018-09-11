@@ -130,7 +130,7 @@ public class MagicSquare {
         int closestArray = -1;
 
         for(int[][] ms : squareList) {
-            difference = ms.checkDiff(arrayToCheck);
+            difference = this.checkDiff(arrayToCheck);
             System.out.println(difference);
             if (difference < leastDifference){
                 leastDifference = difference;
@@ -194,9 +194,7 @@ public class MagicSquare {
         squareList.add(ms7);
         squareList.add(ms8);
     }
-    public ArrayList<int[][]> getMSList(){
-        return this.squareList;
-    }
+
 
 
 }
