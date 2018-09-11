@@ -45,16 +45,15 @@
           <file leaf-file-name="MagicSquare.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="98">
-                  <caret line="172" column="25" lean-forward="true" selection-start-line="172" selection-start-column="25" selection-end-line="172" selection-end-column="25" />
+                <state relative-caret-position="105">
+                  <caret line="134" column="55" lean-forward="true" selection-start-line="134" selection-start-column="55" selection-end-line="134" selection-end-column="55" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="method#checkRows#0;class#MagicSquare#0" />
                     <element signature="method#checkColumns#0;class#MagicSquare#0" />
                     <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
                     <element signature="method#check#0;class#MagicSquare#0" />
-                    <element signature="method#checkDiff#0;class#MagicSquare#0" />
-                    <element signature="method#findClosest#0;class#MagicSquare#0" />
+                    <element signature="method#allMagicSquares#0;class#MagicSquare#0" />
                   </folding>
                 </state>
               </provider>
@@ -67,8 +66,8 @@
           <file leaf-file-name="magicSquareCheckTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+                <state relative-caret-position="306">
+                  <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -500,8 +499,8 @@
         <option value="$PROJECT_DIR$/src/main/java/IntStack.java" />
         <option value="$PROJECT_DIR$/src/test/java/stackTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithms.java" />
-        <option value="$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MagicSquare.java" />
+        <option value="$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java" />
       </list>
     </option>
   </component>
@@ -722,9 +721,9 @@
       <list>
         <item itemvalue="JUnit.magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference2" />
         <item itemvalue="JUnit.magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference" />
+        <item itemvalue="JUnit.magicSquareCheckTest" />
         <item itemvalue="JUnit.magicSquareCheckTest.checkDifferencesBetweenGivenSquareAndMagicSquare" />
         <item itemvalue="Application.algorithmRunner" />
-        <item itemvalue="JUnit.magicSquareCheckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -742,35 +741,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference - 2018.09.11 at 12h 16m 30s.xml">
+    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference2 - 2018.09.11 at 13h 02m 31s.xml">
+      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference - 2018.09.11 at 13h 05m 18s.xml">
       <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicSquareCheckTest_checkDifferencesBetweenGivenSquareAndMagicSquare - 2018.09.11 at 12h 17m 27s.xml">
-      <configuration name="magicSquareCheckTest.checkDifferencesBetweenGivenSquareAndMagicSquare" configurationId="JUnit" />
+    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference2 - 2018.09.11 at 13h 05m 18s.xml">
+      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicSquareCheckTest_checkDifferencesBetweenGivenSquareAndMagicSquare - 2018.09.11 at 12h 18m 00s.xml">
-      <configuration name="magicSquareCheckTest.checkDifferencesBetweenGivenSquareAndMagicSquare" configurationId="JUnit" />
+    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference2 - 2018.09.11 at 13h 07m 55s.xml">
+      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference - 2018.09.11 at 12h 19m 13s.xml">
+    <history-entry file="magicSquareCheckTest - 2018.09.11 at 13h 08m 55s.xml">
+      <configuration name="magicSquareCheckTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference - 2018.09.11 at 13h 18m 51s.xml">
       <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference - 2018.09.11 at 12h 19m 32s.xml">
-      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference" configurationId="JUnit" />
+    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference2 - 2018.09.11 at 13h 18m 56s.xml">
+      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference - 2018.09.11 at 12h 20m 03s.xml">
-      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference" configurationId="JUnit" />
+    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference2 - 2018.09.11 at 13h 27m 41s.xml">
+      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference - 2018.09.11 at 12h 21m 51s.xml">
-      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference" configurationId="JUnit" />
+    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference2 - 2018.09.11 at 13h 28m 47s.xml">
+      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference - 2018.09.11 at 12h 23m 50s.xml">
-      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference - 2018.09.11 at 12h 24m 36s.xml">
-      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference - 2018.09.11 at 12h 59m 31s.xml">
-      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference" configurationId="JUnit" />
+    <history-entry file="magicSquareCheckTest_shouldFindMagicSquareWithLowestDifference2 - 2018.09.11 at 13h 30m 07s.xml">
+      <configuration name="magicSquareCheckTest.shouldFindMagicSquareWithLowestDifference2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -806,7 +805,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29570746" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -820,8 +819,33 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="23" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="difference" language="JAVA" />
+        <watch expression="ms" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>ms</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>msj</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>difference</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/IntStack.java">
@@ -841,8 +865,7 @@
             <element signature="method#checkColumns#0;class#MagicSquare#0" />
             <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
             <element signature="method#check#0;class#MagicSquare#0" />
-            <element signature="method#checkDiff#0;class#MagicSquare#0" />
-            <element signature="method#findClosest#0;class#MagicSquare#0" />
+            <element signature="method#allMagicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -881,8 +904,7 @@
             <element signature="method#checkColumns#0;class#MagicSquare#0" />
             <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
             <element signature="method#check#0;class#MagicSquare#0" />
-            <element signature="method#checkDiff#0;class#MagicSquare#0" />
-            <element signature="method#findClosest#0;class#MagicSquare#0" />
+            <element signature="method#allMagicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -935,8 +957,7 @@
             <element signature="method#checkColumns#0;class#MagicSquare#0" />
             <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
             <element signature="method#check#0;class#MagicSquare#0" />
-            <element signature="method#checkDiff#0;class#MagicSquare#0" />
-            <element signature="method#findClosest#0;class#MagicSquare#0" />
+            <element signature="method#allMagicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -985,8 +1006,7 @@
             <element signature="method#checkColumns#0;class#MagicSquare#0" />
             <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
             <element signature="method#check#0;class#MagicSquare#0" />
-            <element signature="method#checkDiff#0;class#MagicSquare#0" />
-            <element signature="method#findClosest#0;class#MagicSquare#0" />
+            <element signature="method#allMagicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -1044,8 +1064,7 @@
             <element signature="method#checkColumns#0;class#MagicSquare#0" />
             <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
             <element signature="method#check#0;class#MagicSquare#0" />
-            <element signature="method#checkDiff#0;class#MagicSquare#0" />
-            <element signature="method#findClosest#0;class#MagicSquare#0" />
+            <element signature="method#allMagicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -1083,8 +1102,7 @@
             <element signature="method#checkColumns#0;class#MagicSquare#0" />
             <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
             <element signature="method#check#0;class#MagicSquare#0" />
-            <element signature="method#checkDiff#0;class#MagicSquare#0" />
-            <element signature="method#findClosest#0;class#MagicSquare#0" />
+            <element signature="method#allMagicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -1106,8 +1124,7 @@
             <element signature="method#checkColumns#0;class#MagicSquare#0" />
             <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
             <element signature="method#check#0;class#MagicSquare#0" />
-            <element signature="method#checkDiff#0;class#MagicSquare#0" />
-            <element signature="method#findClosest#0;class#MagicSquare#0" />
+            <element signature="method#allMagicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -1152,8 +1169,7 @@
             <element signature="method#checkColumns#0;class#MagicSquare#0" />
             <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
             <element signature="method#check#0;class#MagicSquare#0" />
-            <element signature="method#checkDiff#0;class#MagicSquare#0" />
-            <element signature="method#findClosest#0;class#MagicSquare#0" />
+            <element signature="method#allMagicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -1200,8 +1216,7 @@
             <element signature="method#checkColumns#0;class#MagicSquare#0" />
             <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
             <element signature="method#check#0;class#MagicSquare#0" />
-            <element signature="method#checkDiff#0;class#MagicSquare#0" />
-            <element signature="method#findClosest#0;class#MagicSquare#0" />
+            <element signature="method#allMagicSquares#0;class#MagicSquare#0" />
           </folding>
         </state>
       </provider>
@@ -1256,28 +1271,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MagicSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="172" column="25" lean-forward="true" selection-start-line="172" selection-start-column="25" selection-end-line="172" selection-end-column="25" />
+        <state relative-caret-position="105">
+          <caret line="134" column="55" lean-forward="true" selection-start-line="134" selection-start-column="55" selection-end-line="134" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#checkRows#0;class#MagicSquare#0" />
             <element signature="method#checkColumns#0;class#MagicSquare#0" />
             <element signature="method#checkDiagonal#0;class#MagicSquare#0" />
             <element signature="method#check#0;class#MagicSquare#0" />
-            <element signature="method#checkDiff#0;class#MagicSquare#0" />
-            <element signature="method#findClosest#0;class#MagicSquare#0" />
+            <element signature="method#allMagicSquares#0;class#MagicSquare#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/magicSquareCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -12,8 +12,8 @@ public class magicSquareCheckTest {
         msTest = new int[][]{
                 {8, 1, 6},
                 {3, 5, 7},
-                {4, 9, 2}
-        };
+                {4, 9, 2}};
+        MagicSquare testSquare = new MagicSquare(msTest);
     }
 
     @Test
@@ -85,7 +85,7 @@ public class magicSquareCheckTest {
                 {3, 5, 7},
                 {4, 9, 1}};
         MagicSquare test = new MagicSquare(array);
-        int result = test.findClosest(msTest);
+        int result = test.findClosest(array);
         assertThat(result, is(0));
     }
 
@@ -96,9 +96,7 @@ public class magicSquareCheckTest {
                 {9,5,1},
                 {4,3,7}};
         MagicSquare test = new MagicSquare(array);
-        int result = test.findClosest(msTest);
-        assertThat(result, is(8));
+        int result = test.findClosest(array);
+        assertThat(result, is(7));
     }
-
-
 }

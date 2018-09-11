@@ -116,7 +116,7 @@ public class MagicSquare {
 
         for (int[] row : result){
             for (int x : row){
-                sumDiff += x;
+                sumDiff += Math.abs(x);
             }
         }
 
@@ -131,10 +131,13 @@ public class MagicSquare {
 
         for(int[][] ms : squareList) {
             difference = this.checkDiff(arrayToCheck);
-            System.out.println(difference);
+//            System.out.println("Current Difference: " + difference );
+            System.out.println(squareList.indexOf(ms));
             if (difference < leastDifference){
                 leastDifference = difference;
                 closestArray = squareList.indexOf(ms);
+                System.out.println("Difference: " + difference);
+                System.out.println("Least Difference: " + leastDifference);
             }
         }
         return closestArray;
@@ -185,7 +188,5 @@ public class MagicSquare {
         squareList.add(ms7);
         squareList.add(ms8);
     }
-
-
 
 }
